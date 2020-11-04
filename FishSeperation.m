@@ -34,7 +34,7 @@ figure()
 
 % imshow(VerticalSlice, Map)
 
-AverageMinV = sum(min(VerticalSlice))/length(min(VerticalSlice));
+AverageMinV = mean(min(Vertical));
 
 Below = (VerticalSlice <= AverageMinV);
 
